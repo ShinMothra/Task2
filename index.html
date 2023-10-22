@@ -141,27 +141,17 @@
             <label>
             Дата рождения:<br>
             <input name="field-date" value="2004-12-02" type="date">
-         </label><br>Любимый язак программирования:<br>
-         <label>
-             <input type="select" name="select-group" value="C++">
-             C++
-         </label>
-         <label>
-             <input type="select" name="select-group" value="Java">
-             Java
-         </label>
-         <label>
-             <input type="select" name="select-group" value="Python">
-             Python
-         </label>
-         <label>
-             <input type="select"  name="select-group" value="Pascal">
-             Pascal
-         </label>
-         <label>
-           <input type="select" checked="checked" name="select-group" value="Scala">
-           Scala
-       </label>
+         </label><br>
+           <form action="select1.php" method="post">
+               <p><select size="3" multiple name="hero[]">
+                <option disabled>Выберите героя</option>
+                <option value="Чебурашка">Чебурашка</option>
+                <option selected value="Крокодил Гена">Крокодил Гена</option>
+                <option value="Шапокляк">Шапокляк</option>
+                <option value="Крыса Лариса">Крыса Лариса</option>
+               </select></p>
+   <p><input type="submit" value="Отправить"></p>
+  </form>
          <br>
               Пол:<br>
               <label>
