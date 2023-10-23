@@ -5,7 +5,7 @@
     <title>Сайт тестовый</title>
     <link rel="stylesheet" href="/Task2/css/style.css">
   </head>
-  <body>
+ <body>
     <nav class="page-nav">
         <ul>
             <li><a href="#link list">Список ссылок</a></li>
@@ -14,7 +14,7 @@
         </ul>
     </nav>
     <header class="header">
-        <div style="width:960px; padding: 10px; height:120px; margin: 0 auto;">
+        <div style="width:960px; padding: 10px; height:120px; margin-left: 0%;">
            <img style="float:left; margin:10px; width:100px; height:100px;" src="image.png" alt="">
         
             <div style=" padding:50px;">Сайт Тестовый</div>
@@ -34,9 +34,9 @@
         <br />
         <li><a href="#top"><b>Ссылка на фрагмент текущей страницы</b></a></li>
         <br />
-        <li><a href=https://www.youtube.com/@thesuperframe/?parameter1=p1&parameter2=p2&parametr3=p3/> <b>Ссылка с тремя параметрами</b></a></li>
+        <li><a href=https://www.youtube.com/@thesuperframe/?parameter1=p1&parameter2=p2&parametr3=p3> <b>Ссылка с тремя параметрами</b></a></li>
         <br />
-        <li>Ссылка с параметром id в URL</li>
+        <li><a href=https://www.youtube.com/@thesuperframe/?parameter=id> <b>Ссылка с параметром id в URL</b></li>
         <br />
         <li><a href="page"><b>Относительная на страницу в текущем каталоге</b></a></li>
         <br />
@@ -115,8 +115,8 @@
           </tr>
         </tbody>
     </table>
-       <b>Форма</b>
        <form action="https://www.example.com" method="POST" id="form">
+        <b>Форма</b><br>
         <label>
           Фамилия:<br>
           <input name="field-name-1" placeholder="Гаврилов" type="surname">
@@ -141,33 +141,31 @@
             <label>
             Дата рождения:<br>
             <input name="field-date" value="2004-12-02" type="date">
-         </label><br>
-           <form action="select1.php" method="post">
-               <p><select multiple>
-                <option disabled>Выберите героя</option>
-                <option value="Чебурашка">Чебурашка</option>
-                <option selected value="Крокодил Гена">Крокодил Гена</option>
-                <option value="Шапокляк">Шапокляк</option>
-                <option value="Крыса Лариса">Крыса Лариса</option>
-               </select></p>
-   <p><input type="submit" value="Отправить"></p>
-  </form>
+         </label>
+         <br><b>Любимый язык программирования:</b><br>
+         <p><select multiple>
+          <option disabled>Выберите любимый язык программирования</option>
+          <option value="C++">C++</option>
+          <option selected value="Java">Java</option>
+          <option value="Python">Python</option>
+          <option value="Pascal">Pascal</option>
+         </select></p>
          <br>
               Пол:<br>
               <label>
-                  <input type="radio" name="radio-group" value="Мужской">
+                  <input type="radio" name="radio-group-2" value="Мужской">
                   Мужской
               </label>
               <label>
-                  <input type="radio" name="radio-group" value="Женский">
+                  <input type="radio" name="radio-group-2" value="Женский">
                   Женский
               </label>
               <label>
-                  <input type="radio" name="radio-group" value="Неопределённый">
+                  <input type="radio" name="radio-group-2" value="Неопределённый">
                   Неопределённый
               </label>
               <label>
-                <input type="radio" name="radio-group" value="Бизнес">
+                <input type="radio" name="radio-group-2" value="Бизнес">
                 Бизнес
               </label><br>
               
