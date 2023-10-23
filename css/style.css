@@ -9,9 +9,10 @@
  
   }
   .page-nav{
+    margin-left: 40%;
+    margin-bottom: -5%;
     max-width: 960px;
     border: 6px solid #0a3e0e;
-    margin-left: 20%;
     background-color: rgba(30, 212, 79, 0.47);
  
   }
@@ -39,7 +40,7 @@
     max-width: 960px;
   }
   .link  {
-   margin: 0 auto;
+   margin-left: 15%;
    flex-direction: column;
   }
   li{
@@ -48,7 +49,7 @@
   ul{
    margin: 0 auto;
     display:inline-flex; 
-    list-style-type: disc;
+    list-style-type: none;
   }
  
   a{
@@ -59,6 +60,8 @@
       text-decoration: underline;
   }
   .table{
+      margin: 0 auto;
+      flex-direction: column;
       border-collapse: collapse;
       border: 5px solid black;
       
@@ -66,9 +69,10 @@
   th, td{
       border: 3px solid black;
   }
-  #form{
-   margin: 0 auto;
-   padding:0 auto;
+  form{
+    margin-left: 35%;
+    flex-direction: column;
+    padding:0 auto;
       align-items: center;
   }
   input, select, textarea{
@@ -86,7 +90,7 @@
   }
   header{
       background-color: rgb(70, 174, 77);
- border-bottom: 5px solid #000000;
+      border-bottom: 5px solid #000000;
   }
   #main {
     background-color: rgb(140, 239, 168);
@@ -111,5 +115,6 @@
   }
   .footer{
       background-color: rgb(255, 255, 255);
+      margin-left: -60%;
   } 
  
